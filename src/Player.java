@@ -5,7 +5,9 @@ public abstract class Player {
 	protected int myScore;
 	private final int WIN_SCORE = 100;
 	
-	public Player(String myName){
+	public Player(String name){
+		//changed the variable name in the constructor so that it would set the name of the computer correctly
+		myName = name;
 		myScore = 0;
 	}
 	
